@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: muhammadadel8/nginxweb:${BUILD_NUMBER}
+    image: muhammadadel8/nginxweb:8
     ports:
     - containerPort: 80
